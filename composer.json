@@ -1,0 +1,20 @@
+{
+    "name": "daniel/recrud2",
+    "description": "repaso de crud 2",
+    "type": "project",
+    "license": "gnu/gpl",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Calatrava González",
+            "email": "dannycalgon@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
