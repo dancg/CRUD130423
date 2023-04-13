@@ -74,7 +74,7 @@ class Usuario extends Conexion
         try {
             $stmt->execute([":i" => $id]);
         } catch (PDOException $ex) {
-            die("Error en read" . $ex->getMessage());
+            die("Error en readUsuario" . $ex->getMessage());
         }
         parent::$conexion = null;
         return $stmt->fetch(PDO::FETCH_OBJ);
